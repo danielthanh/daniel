@@ -147,17 +147,7 @@
 }
 
 /* Cart sidebar Style */
-#cart, #cart table {
-    font-size: smaller;
-    color: white;
-} 
- 
-#cart table {
-    border-top: 1px dotted #595;
-    border-bottom: 1px dotted #595;
-    margin-bottom: 10px;
-}
 
-#cart .total-cell, #cart .item_price {
-    border-bottom: 1px dotted #595;
+#columns #side #cart {
+    color: white;
 }
