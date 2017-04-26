@@ -1,6 +1,9 @@
 <h2>Your Cart</h2>
+<% if notice %>
+		<span style="color:red; font-size: 15px;"><%= notice%></span>
+<% end %>
 <table id="table_cart"> 
-<%= notice%>
+
     <%= render cart.line_items %>
     
     <tr class="total_line">
