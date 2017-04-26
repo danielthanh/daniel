@@ -11,4 +11,8 @@
         <td class="total_cell"><%= number_to_currency(@cart.cart_total_price) if @cart%></td>
     </tr>
 </table>
+<%= button_to 'Checkout', 
+              new_order_path, 
+              :method => :get %>
+<br>
 <%= button_to 'Empty Cart', cart, :method => :delete, :data => {:confirm => "Are you sure?"} %>
